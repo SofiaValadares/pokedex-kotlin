@@ -2,7 +2,7 @@ package br.com.alura.cardex.sampledata
 
 import br.com.alura.cardex.models.Pokemon
 
-var pokemonList = listOf(
+var kantoPokemonList = listOf(
     Pokemon(
         name = "Bulbasaur",
         dexNumber = 1,
@@ -758,4 +758,512 @@ var pokemonList = listOf(
         dexNumber = 151,
         image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/151.png"
     )
+)
+
+var johtoPokemonList = listOf(
+    Pokemon(
+        name = "Chikorita",
+        dexNumber = 152,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/152.png"
+    ),
+    Pokemon(
+        name = "Bayleef",
+        dexNumber = 153,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/153.png"
+    ),
+    Pokemon(
+        name = "Meganium",
+        dexNumber = 154,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/154.png"
+    ),
+    Pokemon(
+        name = "Cyndaquil",
+        dexNumber = 155,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/155.png"
+    ),
+    Pokemon(
+        name = "Quilava",
+        dexNumber = 156,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/156.png"
+    ),
+    Pokemon(
+        name = "Typhlosion",
+        dexNumber = 157,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/157.png"
+    ),
+    Pokemon(
+        name = "Totodile",
+        dexNumber = 158,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/158.png"
+    ),
+    Pokemon(
+        name = "Croconaw",
+        dexNumber = 159,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/159.png"
+    ),
+    Pokemon(
+        name = "Feraligatr",
+        dexNumber = 160,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/160.png"
+    ),
+    Pokemon(
+        name = "Sentret",
+        dexNumber = 161,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/161.png"
+    ),
+    Pokemon(
+        name = "Furret",
+        dexNumber = 162,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/162.png"
+    ),
+    Pokemon(
+        name = "Hoothoot",
+        dexNumber = 163,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/163.png"
+    ),
+    Pokemon(
+        name = "Noctowl",
+        dexNumber = 164,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/164.png"
+    ),
+    Pokemon(
+        name = "Ledyba",
+        dexNumber = 165,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/165.png"
+    ),
+    Pokemon(
+        name = "Ledian",
+        dexNumber = 166,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/166.png"
+    ),
+    Pokemon(
+        name = "Spinarak",
+        dexNumber = 167,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/167.png"
+    ),
+    Pokemon(
+        name = "Ariados",
+        dexNumber = 168,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/168.png"
+    ),
+    Pokemon(
+        name = "Crobat",
+        dexNumber = 169,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/169.png"
+    ),
+    Pokemon(
+        name = "Chinchou",
+        dexNumber = 170,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/170.png"
+    ),
+    Pokemon(
+        name = "Lanturn",
+        dexNumber = 171,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/171.png"
+    ),
+    Pokemon(
+        name = "Pichu",
+        dexNumber = 172,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/172.png"
+    ),
+    Pokemon(
+        name = "Cleffa",
+        dexNumber = 173,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/173.png"
+    ),
+    Pokemon(
+        name = "Igglybuff",
+        dexNumber = 174,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/174.png"
+    ),
+    Pokemon(
+        name = "Togepi",
+        dexNumber = 175,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/175.png"
+    ),
+    Pokemon(
+        name = "Togetic",
+        dexNumber = 176,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/176.png"
+    ),
+    Pokemon(
+        name = "Natu",
+        dexNumber = 177,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/177.png"
+    ),
+    Pokemon(
+        name = "Xatu",
+        dexNumber = 178,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/178.png"
+    ),
+    Pokemon(
+        name = "Mareep",
+        dexNumber = 179,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/179.png"
+    ),
+    Pokemon(
+        name = "Flaaffy",
+        dexNumber = 180,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/180.png"
+    ),
+    Pokemon(
+        name = "Ampharos",
+        dexNumber = 181,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/181.png"
+    ),
+    Pokemon(
+        name = "Bellossom",
+        dexNumber = 182,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/182.png"
+    ),
+    Pokemon(
+        name = "Marill",
+        dexNumber = 183,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/183.png"
+    ),
+    Pokemon(
+        name = "Azumarill",
+        dexNumber = 184,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/184.png"
+    ),
+    Pokemon(
+        name = "Sudowoodo",
+        dexNumber = 185,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/185.png"
+    ),
+    Pokemon(
+        name = "Politoed",
+        dexNumber = 186,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/186.png"
+    ),
+    Pokemon(
+        name = "Hoppip",
+        dexNumber = 187,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/187.png"
+    ),
+    Pokemon(
+        name = "Skiploom",
+        dexNumber = 188,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/188.png"
+    ),
+    Pokemon(
+        name = "Jumpluff",
+        dexNumber = 189,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/189.png"
+    ),
+    Pokemon(
+        name = "Aipom",
+        dexNumber = 190,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/190.png"
+    ),
+    Pokemon(
+        name = "Sunkern",
+        dexNumber = 191,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/191.png"
+    ),
+    Pokemon(
+        name = "Sunflora",
+        dexNumber = 192,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/192.png"
+    ),
+    Pokemon(
+        name = "Yanma",
+        dexNumber = 193,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/193.png"
+    ),
+    Pokemon(
+        name = "Wooper",
+        dexNumber = 194,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/194.png"
+    ),
+    Pokemon(
+        name = "Quagsire",
+        dexNumber = 195,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/195.png"
+    ),
+    Pokemon(
+        name = "Espeon",
+        dexNumber = 196,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/196.png"
+    ),
+    Pokemon(
+        name = "Umbreon",
+        dexNumber = 197,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/197.png"
+    ),
+    Pokemon(
+        name = "Murkrow",
+        dexNumber = 198,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/198.png"
+    ),
+    Pokemon(
+        name = "Slowking",
+        dexNumber = 199,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/199.png"
+    ),
+    Pokemon(
+        name = "Misdreavus",
+        dexNumber = 200,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/200.png"
+    ),
+    Pokemon(
+        name = "Unown",
+        dexNumber = 201,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/201.png"
+    ),
+    Pokemon(
+        name = "Wobbuffet",
+        dexNumber = 202,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/202.png"
+    ),
+    Pokemon(
+        name = "Girafarig",
+        dexNumber = 203,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/203.png"
+    ),
+    Pokemon(
+        name = "Pineco",
+        dexNumber = 204,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/204.png"
+    ),
+    Pokemon(
+        name = "Forretress",
+        dexNumber = 205,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/205.png"
+    ),
+    Pokemon(
+        name = "Dunsparce",
+        dexNumber = 206,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/206.png"
+    ),
+    Pokemon(
+        name = "Gligar",
+        dexNumber = 207,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/207.png"
+    ),
+    Pokemon(
+        name = "Steelix",
+        dexNumber = 208,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/208.png"
+    ),
+    Pokemon(
+        name = "Snubbull",
+        dexNumber = 209,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/209.png"
+    ),
+    Pokemon(
+        name = "Granbull",
+        dexNumber = 210,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/210.png"
+    ),
+    Pokemon(
+        name = "Qwilfish",
+        dexNumber = 211,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/211.png"
+    ),
+    Pokemon(
+        name = "Scizor",
+        dexNumber = 212,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/212.png"
+    ),
+    Pokemon(
+        name = "Shuckle",
+        dexNumber = 213,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/213.png"
+    ),
+    Pokemon(
+        name = "Heracross",
+        dexNumber = 214,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/214.png"
+    ),
+    Pokemon(
+        name = "Sneasel",
+        dexNumber = 215,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/215.png"
+    ),
+    Pokemon(
+        name = "Teddiursa",
+        dexNumber = 216,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/216.png"
+    ),
+    Pokemon(
+        name = "Ursaring",
+        dexNumber = 217,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/217.png"
+    ),
+    Pokemon(
+        name = "Slugma",
+        dexNumber = 218,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/218.png"
+    ),
+    Pokemon(
+        name = "Magcargo",
+        dexNumber = 219,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/219.png"
+    ),
+    Pokemon(
+        name = "Swinub",
+        dexNumber = 220,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/220.png"
+    ),
+    Pokemon(
+        name = "Piloswine",
+        dexNumber = 221,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/221.png"
+    ),
+    Pokemon(
+        name = "Corsola",
+        dexNumber = 222,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/222.png"
+    ),
+    Pokemon(
+        name = "Remoraid",
+        dexNumber = 223,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/223.png"
+    ),
+    Pokemon(
+        name = "Octillery",
+        dexNumber = 224,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/224.png"
+    ),
+    Pokemon(
+        name = "Delibird",
+        dexNumber = 225,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/225.png"
+    ),
+    Pokemon(
+        name = "Mantine",
+        dexNumber = 226,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/226.png"
+    ),
+    Pokemon(
+        name = "Skarmory",
+        dexNumber = 227,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/227.png"
+    ),
+    Pokemon(
+        name = "Houndour",
+        dexNumber = 228,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/228.png"
+    ),
+    Pokemon(
+        name = "Houndoom",
+        dexNumber = 229,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/229.png"
+    ),
+    Pokemon(
+        name = "Kingdra",
+        dexNumber = 230,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/230.png"
+    ),
+    Pokemon(
+        name = "Phanpy",
+        dexNumber = 231,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/231.png"
+    ),
+    Pokemon(
+        name = "Donphan",
+        dexNumber = 232,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/232.png"
+    ),
+    Pokemon(
+        name = "Porygon2",
+        dexNumber = 233,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/233.png"
+    ),
+    Pokemon(
+        name = "Stantler",
+        dexNumber = 234,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/234.png"
+    ),
+    Pokemon(
+        name = "Smeargle",
+        dexNumber = 235,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/235.png"
+    ),
+    Pokemon(
+        name = "Tyrogue",
+        dexNumber = 236,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/236.png"
+    ),
+    Pokemon(
+        name = "Hitmontop",
+        dexNumber = 237,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/237.png"
+    ),
+    Pokemon(
+        name = "Smoochum",
+        dexNumber = 238,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/238.png"
+    ),
+    Pokemon(
+        name = "Elekid",
+        dexNumber = 239,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/239.png"
+    ),
+    Pokemon(
+        name = "Magby",
+        dexNumber = 240,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/240.png"
+    ),
+    Pokemon(
+        name = "Miltank",
+        dexNumber = 241,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/241.png"
+    ),
+    Pokemon(
+        name = "Blissey",
+        dexNumber = 242,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/242.png"
+    ),
+    Pokemon(
+        name = "Raikou",
+        dexNumber = 243,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/243.png"
+    ),
+    Pokemon(
+        name = "Entei",
+        dexNumber = 244,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/244.png"
+    ),
+    Pokemon(
+        name = "Suicune",
+        dexNumber = 245,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/245.png"
+    ),
+    Pokemon(
+        name = "Larvitar",
+        dexNumber = 246,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/246.png"
+    ),
+    Pokemon(
+        name = "Pupitar",
+        dexNumber = 247,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png"
+    ),
+    Pokemon(
+        name = "Tyranitar",
+        dexNumber = 248,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png"
+    ),
+    Pokemon(
+        name = "Lugia",
+        dexNumber = 249,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/249.png"
+    ),
+    Pokemon(
+        name = "Ho-Oh",
+        dexNumber = 250,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/250.png"
+    ),
+    Pokemon(
+        name = "Celebi",
+        dexNumber = 251,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/251.png"
+    )
+)
+
+var regionsDex = mapOf(
+    "KANTO" to kantoPokemonList,
+    "JOHTO" to johtoPokemonList
 )

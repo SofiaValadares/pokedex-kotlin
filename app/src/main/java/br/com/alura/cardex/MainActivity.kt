@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import br.com.alura.cardex.sampledata.regionsDex
 import br.com.alura.cardex.ui.screens.DexScreen
 import br.com.alura.cardex.ui.theme.CardexTheme
 
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
 fun App() {
     CardexTheme {
         Surface {
-            DexScreen()
+            DexScreen(dex = regionsDex)
         }
     }
 }
