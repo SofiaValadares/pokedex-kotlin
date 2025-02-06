@@ -3,7 +3,6 @@ package br.com.alura.cardex.ui.components
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -22,9 +21,9 @@ import kotlin.math.ceil
 
 
 @Composable
-fun PokeCardsSection(title: String, pokemons: List<Pokemon>) {
+fun PokeCardsSection(title: String, pokemons: List<Pokemon>, modifier: Modifier = Modifier) {
 
-    Column {
+    Column(modifier = modifier) {
         val rows = ceil(pokemons.size / 3.0).toInt()
 
         Text(
@@ -40,7 +39,7 @@ fun PokeCardsSection(title: String, pokemons: List<Pokemon>) {
             verticalArrangement = Arrangement.spacedBy(10.dp),
             contentPadding = PaddingValues(horizontal = 5.dp)
         ) {
-            items(pokemons) { p->
+            items(pokemons) { p ->
                 PokeCard(p)
             }
         }

@@ -10,21 +10,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import br.com.alura.cardex.models.Pokemon
-import br.com.alura.cardex.sampledata.kantoPokemonList
 import br.com.alura.cardex.sampledata.regionsDex
+import br.com.alura.cardex.ui.components.Header
 import br.com.alura.cardex.ui.components.PokeCardsSection
 
 @Composable
 fun DexScreen(dex: Map<String, List<Pokemon>>) {
+    Header("CardDex")
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.spacedBy(16.dp),
         contentPadding = PaddingValues(vertical = 10.dp)
     ) {
-        // Converte o map para uma lista de entries para iterar de forma mais performática
         items(
             items = dex.entries.toList(),
-            key = { it.key } // Define uma chave estável para cada região
+            key = { it.key }
         ) { regionEntry ->
             PokeCardsSection(
                 title = regionEntry.key,
