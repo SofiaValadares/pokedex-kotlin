@@ -1263,7 +1263,118 @@ var johtoPokemonList = listOf(
     )
 )
 
+var hoennPokemonList = listOf(
+    Pokemon(
+        name = "Treecko",
+        dexNumber = 252,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/252.png"
+    ),
+    Pokemon(
+        name = "Grovyle",
+        dexNumber = 253,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/253.png"
+    ),
+    Pokemon(
+        name = "Sceptile",
+        dexNumber = 254,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/254.png"
+    ),
+    Pokemon(
+        name = "Torchic",
+        dexNumber = 255,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/255.png"
+    ),
+    Pokemon(
+        name = "Combusken",
+        dexNumber = 256,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/256.png"
+    ),
+    Pokemon(
+        name = "Blaziken",
+        dexNumber = 257,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/257.png"
+    ),
+    Pokemon(
+        name = "Mudkip",
+        dexNumber = 258,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/258.png"
+    ),
+    Pokemon(
+        name = "Marshtomp",
+        dexNumber = 259,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/259.png"
+    ),
+    Pokemon(
+        name = "Swampert",
+        dexNumber = 260,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/260.png"
+    ),
+    Pokemon(
+        name = "Poochyena",
+        dexNumber = 261,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/261.png"
+    ),
+    Pokemon(
+        name = "Mightyena",
+        dexNumber = 262,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/262.png"
+    ),
+    Pokemon(
+        name = "Zigzagoon",
+        dexNumber = 263,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/263.png"
+    ),
+    Pokemon(
+        name = "Linoone",
+        dexNumber = 264,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/264.png"
+    ),
+    Pokemon(
+        name = "Wurmple",
+        dexNumber = 265,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/265.png"
+    ),
+    Pokemon(
+        name = "Silcoon",
+        dexNumber = 266,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/266.png"
+    ),
+    Pokemon(
+        name = "Beautifly",
+        dexNumber = 267,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/267.png"
+    ),
+    Pokemon(
+        name = "Cascoon",
+        dexNumber = 268,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/268.png"
+    ),
+    Pokemon(
+        name = "Dustox",
+        dexNumber = 269,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/269.png"
+    ),
+    Pokemon(
+        name = "Lotad",
+        dexNumber = 270,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/270.png"
+    ),
+    Pokemon(
+        name = "Lombre",
+        dexNumber = 271,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/271.png"
+    ),
+    Pokemon(
+        name = "Ludicolo",
+        dexNumber = 272,
+        image = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/272.png"
+    )
+)
+
 var regionsDex = mapOf(
     "KANTO" to kantoPokemonList,
-    "JOHTO" to johtoPokemonList
+    "JOHTO" to johtoPokemonList,
+    "HOENN" to hoennPokemonList
 )
+
+var allPokemonList = kantoPokemonList + johtoPokemonList + hoennPokemonList

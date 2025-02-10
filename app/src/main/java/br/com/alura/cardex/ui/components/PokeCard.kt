@@ -59,7 +59,7 @@ fun PokeCard(
         )
 
         Text(
-            text = pokemon.name,
+            text = pokemon.name.uppercase(),
             color = White,
             fontSize = 12.sp
         )

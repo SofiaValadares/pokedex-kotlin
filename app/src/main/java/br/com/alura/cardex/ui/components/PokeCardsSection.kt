@@ -17,21 +17,26 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.alura.cardex.models.Pokemon
 import br.com.alura.cardex.sampledata.kantoPokemonList
+import br.com.alura.cardex.ui.theme.White
 import kotlin.math.ceil
 
 
 @Composable
-fun PokeCardsSection(title: String, pokemons: List<Pokemon>, modifier: Modifier = Modifier) {
+fun PokeCardsSection(pokemons: List<Pokemon>, title: String? = null, modifier: Modifier = Modifier) {
 
     Column(modifier = modifier) {
         val rows = ceil(pokemons.size / 3.0).toInt()
 
-        Text(
-            text = title,
-            Modifier.padding(start = 16.dp, end = 16.dp),
-            fontSize = 20.sp,
-            fontWeight = FontWeight(400)
-        )
+        if (title != null) {
+            Text(
+                text = title,
+                Modifier.padding(start = 16.dp, end = 16.dp),
+                fontSize = 20.sp,
+                fontWeight = FontWeight(400),
+                color = White
+            )
+        }
+
         LazyVerticalGrid(
             modifier = Modifier.height((110 * rows).dp),
             columns = GridCells.Fixed(3),
