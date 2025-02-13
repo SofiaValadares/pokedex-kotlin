@@ -5,17 +5,12 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
@@ -26,7 +21,12 @@ import br.com.alura.cardex.ui.theme.DarkBlue
 import br.com.alura.cardex.ui.theme.White
 
 @Composable
-fun Header(title: String, searchBar:@Composable () -> Unit, modifier: Modifier = Modifier) {
+fun Header(
+    title: String,
+    modifier: Modifier = Modifier,
+    searchBar:@Composable () -> Unit = {},
+    buttonProfile: () -> Unit = {},
+) {
     Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(5.dp)) {
         Row(
             modifier = Modifier
@@ -41,11 +41,15 @@ fun Header(title: String, searchBar:@Composable () -> Unit, modifier: Modifier =
                 color = White
             )
 
-            Image(
-                painter = painterResource(id = R.drawable.acount_icon),
-                contentDescription = "Acount Icon"
-            )
+            OutlinedButton(onClick = { buttonProfile() }) {
+                Image(
+                    painter = painterResource(id = R.drawable.acount_icon),
+                    contentDescription = "Account Icon"
+                )
+            }
+
         }
+
         searchBar()
     }
 }
@@ -53,6 +57,15 @@ fun Header(title: String, searchBar:@Composable () -> Unit, modifier: Modifier =
 @Preview(showBackground = true, backgroundColor = 0xFF4d0580, heightDp = 100)
 @Composable
 private fun HeaderPreview() {
-    var value by rememberSaveable { mutableStateOf("") }
-    Header("CardDex", { SearchBar(searchText = value, onSearchChange = { value = it }, placeHolder = "Pokemon", modifier = Modifier.fillMaxWidth(0.95f).height(30.dp)) })
+    Header(
+        title = "CardDex",
+        searchBar = {
+            SearchBar(
+                modifier = Modifier
+                    .fillMaxWidth(0.95f)
+                    .height(30.dp)
+            )
+                    },
+        buttonProfile = {},
+        )
 }

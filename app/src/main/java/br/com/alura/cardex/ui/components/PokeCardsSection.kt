@@ -22,7 +22,11 @@ import kotlin.math.ceil
 
 
 @Composable
-fun PokeCardsSection(pokemons: List<Pokemon>, title: String? = null, modifier: Modifier = Modifier) {
+fun PokeCardsSection(
+    modifier: Modifier = Modifier,
+    pokemons: List<Pokemon> = emptyList(),
+    title: String? = null,
+    ) {
 
     Column(modifier = modifier) {
         val rows = ceil(pokemons.size / 3.0).toInt()
